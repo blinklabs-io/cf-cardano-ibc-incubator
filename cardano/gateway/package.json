@@ -30,7 +30,7 @@
     "@harmoniclabs/uint8array-utils": "1.0.1",
     "@lucid-evolution/lucid": "^0.4.18",
     "@nestjs/axios": "^3.0.1",
-    "@nestjs/common": "^10.0.0",
+    "@nestjs/common": "^11.0.16",
     "@nestjs/config": "^3.1.1",
     "@nestjs/core": "^10.0.0",
     "@nestjs/mapped-types": "*",
