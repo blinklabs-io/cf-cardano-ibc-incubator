@@ -40,7 +40,7 @@
     "@nestjs/swagger": "^7.4.0",
     "@nestjs/typeorm": "^10.0.1",
     "@plus/proto-types": "file:../../proto-types",
-    "axios": "^1.6.6",
+    "axios": "^1.9.0",
     "camelcase-keys": "^7.0.1",
     "cbor": "9.0.2",
     "class-transformer": "^0.5.1",
