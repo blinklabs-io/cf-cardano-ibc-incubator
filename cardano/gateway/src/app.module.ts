@@ -12,14 +12,12 @@ import { MithrilModule } from './shared/modules/mithril/mithril.module';
 
 @Module({
   imports: [
-    // IBCEventWatcherModule,
-    // ScheduleModule.forRoot(),
     TypeOrmModule.forRoot(DatabaseConfig),
     ConfigModule.forRoot({
       load: [
         configuration,
         () => ({
-          deployment: require('./deployment/handler.json'),
+          deployment: require(process.env.HANDLER_JSON_PATH || '../deployment/offchain/handler.json'),
         }),
       ],
       isGlobal: true,
